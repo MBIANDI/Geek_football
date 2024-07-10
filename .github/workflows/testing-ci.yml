@@ -1,5 +1,7 @@
 name: Python application test with Github Actions
 
+run-name: ${{ github.actor }} is learning GitHub Actions
+
 on: [push]
 
 jobs:
